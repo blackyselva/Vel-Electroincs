@@ -892,6 +892,10 @@ p {
         margin-bottom: 20px;
     }
 
+    .award-img img {
+        max-width: 80%;
+    }
+
     .award-info span {
         font-size: 28px;
     }
@@ -937,6 +941,10 @@ p {
     .about-img1 {
         order: 1;
         margin-bottom: 20px;
+    }
+
+    .award-img img {
+        max-width: 80%;
     }
 
     .award-info span {
