@@ -824,6 +824,23 @@ p {
         padding: 40px 0 30px 0;
     }
 
+    .award-info span {
+        font-size: 23px;
+    }
+
+    .award-info p {
+        font-size: 23px;
+    }
+
+    .award-img {
+        display: flex;
+        justify-content: center;
+    }
+
+    .award-img img {
+        max-width: 80%;
+    }
+
     .foot-box1 {
         margin-left: 30px;
     }
@@ -875,6 +892,14 @@ p {
         margin-bottom: 20px;
     }
 
+    .award-info span {
+        font-size: 28px;
+    }
+
+    .award-info p {
+        font-size: 28px;
+    }
+
     .foot-col, .foot-col1 {
         text-align: center;
     }
@@ -915,11 +940,11 @@ p {
     }
 
     .award-info span {
-        font-size: 70px;
+        font-size: 40px;
     }
 
     .award-info p {
-        font-size: 70px;
+        font-size: 40px;
     }
 
     .foot-col, .foot-col1 {
@@ -964,6 +989,10 @@ p {
     .about-content {
         font-size: 18px;
         text-align: justify;
+    }
+
+    .award-img img {
+        max-width: 100%;
     }
 
     .award-info span {
@@ -1024,6 +1053,14 @@ p {
 
     #pro-sec {
         padding: 40px 0;
+    }
+
+    .award-info span {
+        font-size: 40px;
+    }
+
+    .award-info p {
+        font-size: 20px;
     }
 
     .foot-col {

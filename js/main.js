@@ -40,7 +40,7 @@ $('.awards').owlCarousel({
         600:{
             items:2
         },
-        1000:{
+        1020:{
             items:4
 		
         }
