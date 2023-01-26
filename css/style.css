@@ -224,7 +224,7 @@ ul {
 
 .right-icon ul li {
     background: #150886c9;
-    width: 218px;
+    width: 233px;
     height: 70px;
     position: relative;
     margin: 0 1px 1px 0;
@@ -233,14 +233,14 @@ ul {
 }
 
 .right-icon ul li:hover {
-    margin-left: -155px;
+    margin-left: -170px;
     background: #150886;
 }
 
 .right-icon ul li a {
     display: block;
     position: relative;
-    padding: 15px 0 0 65px;
+    padding: 8px 0 0 65px;
     text-transform: uppercase;
     line-height: 20px;
     color: #64e730;
@@ -652,8 +652,8 @@ ul {
     cursor: pointer;
 }
 
-.foot-icon .skype:hover {
-    color: #00aff0;
+.foot-icon .youtube:hover {
+    color: #FF0000;
     cursor: pointer;
 }
 
