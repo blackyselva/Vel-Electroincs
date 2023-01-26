@@ -637,6 +637,10 @@ ul {
     font-size: 25px;
 }
 
+.foot-icon a {
+    color: #fff;
+}
+
 .foot-icon .twitt:hover {
     color: #00acee;
     cursor: pointer;
