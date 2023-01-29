@@ -139,12 +139,14 @@
 /* welcome section */
 
 .welcome-sec {
-    background: #150886;
+    background: linear-gradient(#0000002e,#000000b3), url(img/Welcome\ Image.jpg);
+    background-size: cover;
+    background-position: revert;
     padding: 50px 0;
     position: relative;
     color: #fff;
 }
-
+/*
 .welcome-sec::before {
     content: "";
     height: 100%;
@@ -164,7 +166,7 @@
     border-width: 60px 150px 0 0;
     border-color: #150886 transparent;
 }
-
+*/
 .welcome-intro {
     text-transform: uppercase;
     font-size: 25px;
@@ -353,6 +355,22 @@ ul {
     text-transform: capitalize;
 }
 
+.about-pro-hed {
+    padding: 20px 0;
+}
+
+.about-pro-hed h4 {
+    font-weight: 800;
+}
+
+.about-pro-hed h5 {
+    font-weight: 500;
+}
+
+.about-pro-hed span {
+    color: #0A66C2;
+}
+
 .pro-head {
     font-size: 25px;
     font-weight: 700;
@@ -362,6 +380,7 @@ ul {
     -webkit-text-fill-color: transparent;
     position: relative;
     display: inline-block;
+    padding-top: 20px;
 }
 
 .pro-head::after {
@@ -372,6 +391,14 @@ ul {
     width: 100%;
     height: 2px;
     background: #2065b4;
+}
+
+.about-pro-img {
+    padding: 20px 0;
+}
+
+.about-pro-ul li {
+    padding: 15px 0 !important;
 }
 
 .profile-intro {
@@ -464,6 +491,26 @@ ul {
     text-align: justify;
     font-weight: 600;
     color: dimgrey;
+}
+
+/*Our Gallery*/
+
+.gal-card {
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.gal-card:hover .gal-img {
+    transform: scale(1.2);
+    transition: all 1s;
+}
+
+.gal-card:hover {
+    box-shadow: 0 0 9px 3px #000;
+}
+
+.gal-img a img {
+    max-width: 100%;
 }
 
 /*Our Services*/
