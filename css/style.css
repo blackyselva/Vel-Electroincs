@@ -100,7 +100,7 @@
     top: 0;
     left: 0;
     right: 0;
-    background: #0000008c;
+    background: #00000056;
     z-index: 1;
 }
 
@@ -139,7 +139,7 @@
 /* welcome section */
 
 .welcome-sec {
-    background: linear-gradient(#0000002e,#000000b3), url(img/Welcome\ Image.jpg);
+    background: linear-gradient(#0000002e,#000000b3), url(img/1400x600-pixel.jpg);
     background-size: cover;
     background-position: revert;
     padding: 50px 0;
